@@ -1,0 +1,15 @@
+body{
+    height: 100%;
+    width: 100%;
+    
+}
+
+#cardprincipal{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #db0a0a;
+    color: white;
+}
