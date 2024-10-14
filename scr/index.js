@@ -9,6 +9,7 @@ function moveCard() {
     card.style.left = `${randomX}px`;
     card.style.top = `${randomY}px`;
 }
-document.getElementById('nao').addEventListener('click', function() {
-    window.location.href = 'https://markhiarley.github.io/pages/page.html';
+
+document.getElementById('sim').addEventListener('click', function() {
+    window.location.href = '/pages/page.html';
 });
