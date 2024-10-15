@@ -3,10 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/scr/css/global.css">
     <title>TE AMO</title>
 </head>
 <body>
-    <img src="/scr/image/praia.jpg" alt="Descrição da imagem">
+    <img src="/scr/image/praia.jpg" alt="Descrição da imagem" class="foto">
+
+    <p id="texto" ></p>
+
+
     <script>
         window.addEventListener('load', function() {
             var audio = document.querySelector('audio');
@@ -15,7 +20,7 @@
             }
         });
     </script>
-    <audio controls>
+    <audio controls class="audio">
         <source src="/scr/audio/mykind.m4a" type="audio/mpeg">
     <script src="/scr/index.js">
         

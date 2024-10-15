@@ -1,8 +1,10 @@
 body{
     height: 100%;
     width: 100%;
-    
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(249, 64, 187);
 }
+
 
 #cardprincipal{
     width: 200px;
@@ -10,6 +12,34 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url(/scr/image/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: rgba(227, 0, 215, 0.864);
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin: 0 auto;
+}
+
+
+.foto{
+    width: 1000px;
+    height: 600px;
+    border-radius: 5px;
+}
+.audio{
+    padding-bottom: 250px;
+}
+.texto{
+    height: 20px;
+    width: 100px;
     background-color: #db0a0a;
-    color: white;
+}
+
+.pergunta{
+    border: 2px solid black;
+    padding: 5px;
+    background-color: antiquewhite;
 }
